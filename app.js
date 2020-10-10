@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-app.get('/time', (req, res) => {
+app.get('/', (req, res) => {
     res.send("time is 13");
 })
 
